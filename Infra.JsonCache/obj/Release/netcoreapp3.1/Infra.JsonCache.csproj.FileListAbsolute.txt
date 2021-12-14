@@ -1,0 +1,10 @@
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\bin\Release\netcoreapp3.1\Infra.JsonCache.deps.json
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\bin\Release\netcoreapp3.1\Infra.JsonCache.dll
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\bin\Release\netcoreapp3.1\Infra.JsonCache.pdb
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Release\netcoreapp3.1\Infra.JsonCache.csproj.AssemblyReference.cache
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Release\netcoreapp3.1\Infra.JsonCache.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Release\netcoreapp3.1\Infra.JsonCache.AssemblyInfoInputs.cache
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Release\netcoreapp3.1\Infra.JsonCache.AssemblyInfo.cs
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Release\netcoreapp3.1\Infra.JsonCache.csproj.CoreCompileInputs.cache
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Release\netcoreapp3.1\Infra.JsonCache.dll
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Release\netcoreapp3.1\Infra.JsonCache.pdb
