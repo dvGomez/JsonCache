@@ -1,5 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
@@ -8,8 +11,9 @@ namespace Infra.JsonCache.Core
     public abstract class CacheSaveHelper
     {
         private string StoragePath = Path.Combine(Directory.GetCurrentDirectory(), "Cache");
+        private IDictionary<Type, TypeCode> generateKeys = new Dictionary<Type, TypeCode>();
 
-        public async Task<TEntity> InsertEntity<TEntity>(TEntity entity)
+        internal async Task<TEntity> InsertEntity<TEntity>(TEntity entity)
         {
             var filePath = GetEntityDbPath<TEntity>();
             var result = await GetEntityDbContent<TEntity>();
@@ -20,7 +24,7 @@ namespace Infra.JsonCache.Core
             return entity;
         }
 
-        public async Task<IList<TEntity>> InsertEntity<TEntity>(IList<TEntity> entity)
+        internal async Task<IList<TEntity>> InsertEntity<TEntity>(IList<TEntity> entity)
         {
             var filePath = GetEntityDbPath<TEntity>();
             var result = await GetEntityDbContent<TEntity>();
@@ -32,7 +36,7 @@ namespace Infra.JsonCache.Core
             return entity;
         }
 
-        public async Task<List<TEntity>> GetEntityDbContent<TEntity>()
+        internal async Task<List<TEntity>> GetEntityDbContent<TEntity>()
         {
             var filePath = GetEntityDbPath<TEntity>();
             var text = await File.ReadAllTextAsync(filePath);
@@ -41,7 +45,7 @@ namespace Infra.JsonCache.Core
             return result;
         }
 
-        public string GetEntityDbPath<TEntity>()
+        internal string GetEntityDbPath<TEntity>()
         {
             var fileName = typeof(TEntity).Name;
             var filePath = Path.Combine(StoragePath, $"{fileName}_db.json");
@@ -53,7 +57,17 @@ namespace Infra.JsonCache.Core
             return filePath;
         }
 
-        public async void CreateLocalStorageFolder()
+        internal async Task<IList<TEntity>> OverrideEntities<TEntity>(IList<TEntity> entity)
+        {
+            var filePath = GetEntityDbPath<TEntity>();
+
+            await File.WriteAllTextAsync(filePath, JsonConvert.SerializeObject(entity));
+
+            return entity;
+        }
+
+
+        internal async void CreateLocalStorageFolder()
         {
             if (!File.Exists(StoragePath))
             {

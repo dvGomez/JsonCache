@@ -10,3 +10,15 @@ C:\Users\cla4ct\source\repos\JsonCache\Infra.JsonCache\obj\Debug\net5.0\Infra.Js
 C:\Users\cla4ct\source\repos\JsonCache\Infra.JsonCache\obj\Debug\net5.0\Infra.JsonCache.dll
 C:\Users\cla4ct\source\repos\JsonCache\Infra.JsonCache\obj\Debug\net5.0\ref\Infra.JsonCache.dll
 C:\Users\cla4ct\source\repos\JsonCache\Infra.JsonCache\obj\Debug\net5.0\Infra.JsonCache.pdb
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\bin\Debug\net5.0\Infra.JsonCache.deps.json
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\bin\Debug\net5.0\Infra.JsonCache.dll
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\bin\Debug\net5.0\ref\Infra.JsonCache.dll
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\bin\Debug\net5.0\Infra.JsonCache.pdb
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Debug\net5.0\Infra.JsonCache.csproj.AssemblyReference.cache
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Debug\net5.0\Infra.JsonCache.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Debug\net5.0\Infra.JsonCache.AssemblyInfoInputs.cache
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Debug\net5.0\Infra.JsonCache.AssemblyInfo.cs
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Debug\net5.0\Infra.JsonCache.csproj.CoreCompileInputs.cache
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Debug\net5.0\Infra.JsonCache.dll
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Debug\net5.0\ref\Infra.JsonCache.dll
+D:\Projetos\repositories\JsonCache\Infra.JsonCache\obj\Debug\net5.0\Infra.JsonCache.pdb

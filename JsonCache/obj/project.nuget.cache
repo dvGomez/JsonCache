@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fG78ZJlFfNSfGncI3PAUlKrv3dOPjlTGA9qtyr3X0kMfPbVySnQTycko39guBHbEFgsuvw/2dLJYndql/6Tx2A==",
+  "dgSpecHash": "y5SARGXEorqoMIRZDCzurbc6eKtwobv2DFEckQq2EiWHpuyb6hX1zhbeFp1Ot+ZmcsanCRNZb+sAyJT8Qt1XKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cla4ct\\source\\repos\\JsonCache\\JsonCache\\JsonCache.csproj",
+  "projectFilePath": "D:\\Projetos\\repositories\\JsonCache\\JsonCache\\JsonCache.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cla4ct\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\Lucas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

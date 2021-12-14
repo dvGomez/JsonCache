@@ -11,7 +11,11 @@ namespace JsonCache
         {
             CacheService cs = new CacheService();
 
-            cs.Clear<User>();
+            var user = cs.SaveAsync(new User("Test2", 14)).GetAwaiter().GetResult();
+            var findUser = cs.GetByKeyAsync<User>(x => x.Name == "Test").GetAwaiter().GetResult();
+            cs.DeleteByKeyAsync<User>(x => x.Name == "Test2").GetAwaiter().GetResult();
+
+            ////cs.ClearAsync<User>();
 
             Console.ReadLine();
         }

@@ -13,7 +13,7 @@
       },
       "Infra.JsonCache/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
         },
@@ -66,42 +66,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cla4ct\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cla4ct\\source\\repos\\JsonCache\\JsonCache\\JsonCache.csproj",
+      "projectUniqueName": "D:\\Projetos\\repositories\\JsonCache\\JsonCache\\JsonCache.csproj",
       "projectName": "JsonCache",
-      "projectPath": "C:\\Users\\cla4ct\\source\\repos\\JsonCache\\JsonCache\\JsonCache.csproj",
-      "packagesPath": "C:\\Users\\cla4ct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cla4ct\\source\\repos\\JsonCache\\JsonCache\\obj\\",
+      "projectPath": "D:\\Projetos\\repositories\\JsonCache\\JsonCache\\JsonCache.csproj",
+      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\repositories\\JsonCache\\JsonCache\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\cla4ct\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "\\\\10.21.71.70\\DFQ\\ICO\\BoschNugetFeedPack": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\cla4ct\\source\\repos\\JsonCache\\Infra.JsonCache\\Infra.JsonCache.csproj": {
-              "projectPath": "C:\\Users\\cla4ct\\source\\repos\\JsonCache\\Infra.JsonCache\\Infra.JsonCache.csproj"
+            "D:\\Projetos\\repositories\\JsonCache\\Infra.JsonCache\\Infra.JsonCache.csproj": {
+              "projectPath": "D:\\Projetos\\repositories\\JsonCache\\Infra.JsonCache\\Infra.JsonCache.csproj"
             }
           }
         }
@@ -130,7 +122,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
