@@ -14,44 +14,44 @@ Use --version to specify a preview version to install.
 
 ### Instance of JsonCache
 ```c#
-	CacheService cs = new CacheService();
+CacheService cs = new CacheService();
 ```
 
 ### Create and save an entity
 ```c#
-	var user = new User();
-	user.Name = "Test User";
+var user = new User();
+user.Name = "Test User";
 	
-	await cs.SaveAsync(user);
+await cs.SaveAsync(user);
 ```
 
 ### Create and save a list of entities
 ```c#
-	var userList = new List<User>(...);
+var userList = new List<User>(...);
 	
-	await cs.SaveAllAsync(userList);
+await cs.SaveAllAsync(userList);
 ```
 
 ### Get Objects
 Using th key of object:
 ```c#
-	await cs.GetByKeyAsync<User>(x => x.Name == "Test User");
+await cs.GetByKeyAsync<User>(x => x.Name == "Test User");
 ```
 Get all objects:
 ```c#
-	await cs.GetAllASync<User>();
+await cs.GetAllASync<User>();
 ```
 
 Return null if not find the object.
 
 ### Delete by specific object key
 ```c#
-	await cs.DeleteByKeyAsync<User>(x => x.Name == "Test User");
+await cs.DeleteByKeyAsync<User>(x => x.Name == "Test User");
 ```
 ### Clear Cache
 **Warning:** this methods clear all data from specified object type.
-```
-	await cs.ClearAsync<User>();
+```c#
+await cs.ClearAsync<User>();
 ```
 
 ## Contributing
